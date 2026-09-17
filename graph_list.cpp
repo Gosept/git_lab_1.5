@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <windows.h>
+// Windows-only version
 using namespace std;
 const int MAXN = 100;
 
