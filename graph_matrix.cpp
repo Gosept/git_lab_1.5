@@ -2,6 +2,7 @@
 #include <fstream>
 #include <windows.h>
 // Windows-only version
+// Windows-only version 2
 using namespace std;
 const int MAXN = 100;
 int n;
