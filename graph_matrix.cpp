@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <windows.h>
 using namespace std;
 const int MAXN = 100;
 int n;
@@ -10,10 +11,7 @@ int parent[MAXN];
 bool visited[MAXN];
 bool ap[MAXN];
 int timer;
-// доп строка гитхаб
-// доп строка гитхаб 2
-// dop stroka github 3
-// dop stroka github 4
+
 // функция для поиска точек сочленения
 void dfs(int u)
 {
@@ -51,6 +49,8 @@ void dfs(int u)
 
 int main()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     ifstream fin("graph_matrix.txt");
     if (!fin)
@@ -114,7 +114,6 @@ int main()
     }
     cout << endl;
 
-    cout << "Нажмите Enter для продолжения...";
-    cin.get();
+    system("pause");
     return 0;
 }

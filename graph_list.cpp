@@ -1,11 +1,9 @@
 #include <iostream>
 #include <fstream>
+#include <windows.h>
 using namespace std;
 const int MAXN = 100;
-// доп строка гитхаб
-// доп строка гитхаб 2
-// dop stroka github 3
-// dop stroka github 4
+
 // Узел односвязного списка смежности
 struct Node
 {
@@ -85,6 +83,8 @@ void dfs(int u)
 
 int main()
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     ifstream fin("graph_list.txt");
     if (!fin)
@@ -172,7 +172,6 @@ cout << endl;
     cout << endl;
 
     deleteLists();
-    cout << "Нажмите Enter для продолжения...";
-    cin.get();
+    system("pause");
     return 0;
 }
