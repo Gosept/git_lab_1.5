@@ -6,6 +6,7 @@ const int MAXN = 100;
 // доп строка гитхаб
 // доп строка гитхаб 2
 // dop stroka github 3
+// dop stroka github 4
 // Узел односвязного списка смежности
 struct Node
 {

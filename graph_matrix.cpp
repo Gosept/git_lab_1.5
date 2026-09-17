@@ -14,6 +14,7 @@ int timer;
 // доп строка гитхаб
 // доп строка гитхаб 2
 // dop stroka github 3
+// dop stroka github 4
 // функция для поиска точек сочленения
 void dfs(int u)
 {
