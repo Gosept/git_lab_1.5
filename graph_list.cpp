@@ -4,6 +4,7 @@
 using namespace std;
 const int MAXN = 100;
 // доп строка гитхаб
+// доп строка гитхаб 2
 // Узел односвязного списка смежности
 struct Node
 {

@@ -12,6 +12,7 @@ bool visited[MAXN];
 bool ap[MAXN];
 int timer;
 // доп строка гитхаб
+// доп строка гитхаб 2
 // функция для поиска точек сочленения
 void dfs(int u)
 {
