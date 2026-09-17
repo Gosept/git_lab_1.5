@@ -32,3 +32,9 @@
 *.app
 *.layout
 *.depend
+# Code::Blocks служебные файлы
+*.cbp
+
+# Документы
+*.docx
+*.pdf
